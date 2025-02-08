@@ -936,7 +936,7 @@ var _ = Describe("API test", func() {
 					}
 				}
 
-				deleteBody := schema.StoresDelete{
+				deleteBody := schema.StoresReset{
 					Keys: [][]float32{
 						{0.1, 0.2, 0.3},
 					},
